@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "Deepworld",
+    "name": "Deepworld",
+	"authors": [ "yon" ],
+    "description": "Adds new undeground critters and resources",
+    "category": "misc_additions",
+    "dependencies": [ "dda" ],
+	"obsolete": false
+  }
+]

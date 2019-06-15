@@ -1,0 +1,16 @@
+{
+    "type": "GENERIC",
+    "id": "cavern_chitin",
+    "category": "spare_parts",
+    "symbol": ",",
+    "color": "gray",
+    "name": "chunk of rock chitin",
+    "name_plural": "chunks of rock chitin",
+    "description": "A piece of stone harden insect exsokeleton. very durable but not as flexible or light",
+    "price": 0,
+    "material": "r_chitin",
+    "weight": 108,
+    "volume": 1,
+    "bashing": 2,
+    "to_hit": -2
+  },
