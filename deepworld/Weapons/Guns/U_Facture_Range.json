@@ -1,0 +1,60 @@
+[
+  {
+    "id": "u_trex",
+    "type": "GUN",
+    "reload_noise_volume": 12,
+    "name": "Ufacture 'Rhino'",
+    "description": "A odd dark steel double barrel firearm. It large muzle, heavy frame and old style gives it the apperance of hunting big game but modified in many ways. You know this is rather difficult to wield and slow to handle. On the side of one of the barrels 'Bigger they are, harder they fall' is spraypainted very small.",
+    "weight": 9127,
+    "volume": 17,
+    "price": 3500000,
+    "to_hit": 2,
+    "bashing": 15,
+    "material": [ "steel", "wood" ],
+    "symbol": "(",
+    "color": "light_red",
+    "ammo": "700nx",
+    "skill": "rifle",
+    "dispersion": 80,
+    "durability": 7,
+    "clip_size": 2,
+    "reload": 700,
+    "barrel_length": 5,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ],
+    "flags": [ "FIRE_TWOHAND", "NO_UNLOAD", "RELOAD_ONE", "SLOW_WIELD", "FRAGILE_MELEE" ]
+  },
+  {
+    "id": "m1_ufriend",
+    "copy-from": "rifle_semi",
+    "type": "GUN",
+    "name": "Ufacture 'Old Friend'",
+    "description": "A heavily modified M14 capable of two rd. burst firemode not counting its built-in semi-auto firemode. A deadly weapon chamberd to fire 308. rounds with deadly versitility and flexibility at mid-range. Its two different firemodes is its key importance with adition to its extended modificatios. Forrest green with a dogtag tied to its stock with military numbering and the name 'warriors' as squad name. A great old friend to some one.",
+    "weight": 5382,
+    "volume": 11,
+    "price": 300000,
+    "to_hit": 0,
+    "bashing": 10,
+    "material": [ "steel", "wood" ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "308",
+    "ranged_damage": 1,
+    "dispersion": 90,
+    "durability": 10,
+	"modes": [
+      [ "DEFAULT", "semi-auto", 1 ],
+      [ "BURST", "2 rd.", 2 ]
+    ],
+    "barrel_length": 2,
+	"built_in_mods": [ "u_sights", "u_grip", "u_rail_laser" ],
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "bore", 1 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ],
+    "magazines": [
+      [ "308", [ "m14mag", "m14smallmag" ] ],
+      [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ] ]
+    ]
+  }
+]
